@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FeedActivity"
+    tools:showIn="@layout/activity_feed"
+    android:layout_margin="8dp">
+    
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torta de Maçã"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steve Rogers"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="167dp"
+                android:layout_margin="16dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/tortamaca" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfeita para seus lanchinhos da tarde! Muito fácil de se fazer"
+                android:textStyle="italic"
+                android:layout_marginBottom="16dp"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rolinho de Espinafre"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popeye"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="167dp"
+                android:layout_margin="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rocambole" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfeita para seus lanchinhos da tarde! Muito fácil de se fazer"
+                android:textStyle="italic"
+                android:layout_marginBottom="16dp"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    
+</LinearLayout>
